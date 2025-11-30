@@ -1,0 +1,17 @@
+subjectId,runNumber,setId,trialIndex,condition,prompt,content,promptOnset,fixationEnd,trialDuration,attentionResponseKey,attentionRT
+S12,1,4,1,specific,Imagine saying the sentence:,Frequency relates to probability.,12.0907058750163,47.1562068749918,35.0655009999755,1,1.8722315839841
+S12,1,4,2,spontaneous,Think about,what makes you feel fulfilled.,50.5665547919925,85.5986837499659,35.0321289579733,NaN,NaN
+S12,1,4,3,spontaneous,Think about,what you look for in a meaningful relationship.,88.6467951249797,123.683380667004,35.0365855420241,NaN,NaN
+S12,1,4,4,specific,Imagine saying the sentence:,Questions lead to discovery.,126.72134179197,161.749450000003,35.0281082080328,1,1.76839129201835
+S12,1,4,5,specific,Imagine saying the sentence:,Experience shapes perspectives.,176.80071375001,211.847128249996,35.046414499986,1,1.12108429102227
+S12,1,4,6,spontaneous,Think about,something you want to buy recently.,214.940379082982,249.967593166977,35.0272140839952,NaN,NaN
+S12,1,4,7,spontaneous,Think about,what you would do to relax.,252.99384570797,288.024066541984,35.0302208340145,1,2.23700779100182
+S12,1,4,8,specific,Imagine saying the sentence:,Markets reflect demand.,291.035996332997,326.071855791961,35.0358594589634,NaN,NaN
+S12,2,4,1,specific,Imagine saying the sentence:,Reasoning uses logic.,12.0411452499684,47.0941892499686,35.0530440000002,1,1.41779233299894
+S12,2,4,2,spontaneous,Think about,what your perfect weekend would include.,50.1222688329872,85.1531302499934,35.0308614170062,1,1.9919597079861
+S12,2,4,3,specific,Imagine saying the sentence:,Resources can be limited.,88.1726732919924,123.204203833011,35.0315305410186,1,1.40705945901573
+S12,2,4,4,spontaneous,Think about,what success means to you.,126.220303667011,161.317937083018,35.0976334160077,NaN,NaN
+S12,2,4,5,spontaneous,Think about,where you would like to travel next.,176.365560041973,211.405275749974,35.0397157080006,1,1.53314654197311
+S12,2,4,6,specific,Imagine saying the sentence:,Language enables communication.,214.418066375016,249.45643029199,35.038363916974,NaN,NaN
+S12,2,4,7,spontaneous,Think about,how you have changed these years.,252.470279124973,287.506720333011,35.036441208038,NaN,NaN
+S12,2,4,8,specific,Imagine saying the sentence:,Context affects meaning.,290.520086999983,325.564846791967,35.0447597919847,1,1.75056841596961

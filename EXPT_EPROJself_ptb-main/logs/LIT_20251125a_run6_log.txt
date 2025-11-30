@@ -1,0 +1,45 @@
+Trial (type1): Consider your relationships with close friends at the present time. How satisfied do you feel with these relationships:\n\n(1) very satisfied\n(2) somewhat satisfied\n(3) unsatisfied\n
+Pressed 1
+Trial RT: 1.099
+Trial (type2): Consider that you take a trip out of Boston one year from now. Will you travel:\n\n(1) by yourself\n(2) with friends or family\n(3) with coworkers\n
+Pressed 2
+Trial RT: 0.93012
+Trial (type2): Envision that you are listening to music tomorrow morning as you go to your first activity. Will you be using:\n\n(1) headphones\n(2) speaker\n(3) another device\n
+Pressed 2
+Trial RT: 0.75565
+Trial (type1): Envision a major goal that you have at the present moment. Would you characterize this goal as related to:\n\n(1) your occupation\n(2) your health\n(3) something else\n
+Pressed 2
+Trial RT: 0.59005
+Trial (type1): Contemplate your social status at the present moment. How happy are you with your status within social groups:\n\n(1) happy\n(2) neutral\n(3) unhappy\n
+Pressed 1
+Trial RT: 0.43044
+Trial (type2): Imagine that you are browsing at a specific bookstore two days from now. Do you envision spending your time in:\n\n(1) the fiction section\n(2) the nonfiction section\n(3) another section\n
+Pressed 1
+Trial RT: 0.256
+Trial (type3): Recall the most recent time that you went to a specific store to shop for specific items. Did you buy:\n\n(1) groceries\n(2) clothing\n(3) something else\n
+Pressed 1
+Trial RT: 0.089447
+Trial (type3): Think back to the Internet browser you used when you accessed the internet yesterday. Was the browser:\n\n(1) Firefox\n(2) Safari\n(3) other\n
+Pressed 3
+Trial RT: 1.5804
+Trial (type3): Think about the last time you chose to walk to a specific destination. Were you walking:\n\n(1) by yourself\n(2) with a few others\n(3) with a large group\n
+Pressed 1
+Trial RT: 1.4055
+Trial (type2): Envision that you are preparing a dish for a potluck dinner next weekend. Do you think you will prepare:\n\n(1) an appetizer\n(2) a main course\n(3) something else\n
+Pressed 1
+Trial RT: 1.2291
+Trial (type3): Reflect back upon the last time that you were in a car or other motor vehicle. Were you:\n\n(1) driving\n(2) in a passenger seat\n(3) in another seat\n
+Pressed 2
+Trial RT: 1.0698
+Trial (type2): Envision that you are volunteering at a specific event one year from now. Do you expect to be:\n\n(1) fundraising\n(2) organizing the event\n(3) helping in another way\n
+Pressed 3
+Trial RT: 0.89491
+Trial (type3): Think about the last time you checked your mailbox and had received a piece of mail. Was this item:\n\n(1) a letter\n(2) a bill\n(3) something else\n
+Pressed 1
+Trial RT: 0.72058
+Trial (type1): Assess your current ability to live truthfully and communicate truthfully with others. Would you describe yourself as:\n\n(1) telling only the truth\n(2) mixing truth and untruth\n(3) telling only untruth\n
+Pressed 2
+Trial RT: 0.56163
+Trial (type1): Consider the amount of responsibilities your work is placing on you at the present time. Would you prefer to have:\n\n(1) more responsibilities\n(2) the same amount\n(3) fewer responsibilities\n
+Pressed 2
+Trial RT: 0.38663

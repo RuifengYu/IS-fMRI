@@ -1,0 +1,45 @@
+Trial (type3): Consider a time in the last week when a specific activity helped you feel more relaxed. During this activity were you:\n\n(1) by yourself\n(2) with friends\n(3) with other people\n
+Pressed 2
+Trial RT: 0.91088
+Trial (type2): Consider that you go to a movie theater next week and can select one free item from concessions. You select:\n\n(1) popcorn\n(2) candy\n(3) something else\n
+Pressed 3
+Trial RT: 0.73025
+Trial (type1): Think about how confident you are at the present time. Would you describe yourself as having:\n\n(1) high confidence\n(2) moderate confidence\n(3) low confidence\n
+Pressed 2
+Trial RT: 0.56825
+Trial (type2): Assess the number of activities on your schedule for this upcoming weekend. Will your schedule on Saturday be:\n\n(1) very busy\n(2) a little busy\n(3) not busy\n
+Pressed 1
+Trial RT: 0.40599
+Trial (type3): Consider the last time you went shopping and bought new clothing or shoes. Were you shopping:\n\n(1) in a store\n(2) online\n(3) some other way\n
+Pressed 2
+Trial RT: 0.24341
+Trial (type2): Contemplate your next birthday, including where you will be in the upcoming year. Are you more likely to have:\n\n(1) a small celebration\n(2) a large celebration\n(3) no celebration\n
+Pressed 1
+Trial RT: 0.080599
+Trial (type1): Ponder over how you define your own success at the present moment. Do you feel most successful due to:\n\n(1) level of wealth\n(2) achievements\n(3) something else\n
+Pressed 3
+Trial RT: 1.5687
+Trial (type3): Contemplate details of your discussion during the last phone call that you made. Who had you called:\n\n(1) a family member\n(2) a friend\n(3) someone else\n
+Pressed 1
+Trial RT: 1.4058
+Trial (type3): Think about a specific time that you saw or interacted with an animal, whether a household pet or other animal. Were you:\n\n(1) inside your home\n(2) outside\n(3) somewhere else\n
+Pressed 1
+Trial RT: 1.2436
+Trial (type3): Ponder over the last time you bought a gift for a specific person. Had you purchased the gift for:\n\n(1) a friend\n(2) a family member\n(3) someone else\n
+Pressed 2
+Trial RT: 1.0798
+Trial (type1): Consider the level of stress you are feeling at the present time. Would you describe yourself as:\n\n(1) highly stressed\n(2) mildly stressed\n(3) not stressed\n
+Pressed 2
+Trial RT: 0.9171
+Trial (type1): Assess how ecologically sustainable your daily choices are at the present moment. Do you wish that your habits were:\n\n(1) more eco-conscious\n(2) less eco-conscious\n(3) equally eco-conscious\n
+Pressed 1
+Trial RT: 0.75465
+Trial (type2): Envision that you are at a specific grocery store tomorrow. Do you think you will use a:\n\n(1) shopping cart\n(2) basket\n(3) something else\n
+Pressed 2
+Trial RT: 0.59212
+Trial (type1): Contemplate how determined you feel at the present moment to complete the tasks at hand. Would you describe yourself as:\n\n(1) very determined\n(2) moderately determined\n(3) not determined at all\n
+Pressed 1
+Trial RT: 0.43063
+Trial (type2): Think about what you will do immediately after completing the experiment today. Will you:\n\n(1) travel directly home\n(2) run a few errands\n(3) do something else\n
+Pressed 3
+Trial RT: 0.26777

@@ -1,0 +1,2 @@
+participant,session,mriMode,offset_x,offset_y,NBACK_run,EPROJ_run,LANG_run,FIXATION_run,NBACK_PRACTICE_run
+test,1,scan,0,0,1,1,1,1,1

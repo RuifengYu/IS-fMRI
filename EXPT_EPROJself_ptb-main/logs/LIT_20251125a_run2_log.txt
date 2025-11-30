@@ -1,0 +1,45 @@
+Trial (type2): Envision that you arrive home today and find that your door is locked and you have no key. Do you:\n\n(1) call a locksmith\n(2) use a spare key\n(3) find another solution\n
+Pressed 3
+Trial RT: 1.1746
+Trial (type1): Think about the major issues you are facing in your life at this moment. Which of these issues concerns you most:\n\n(1) health\n(2) education\n(3) finance\n
+Pressed 2
+Trial RT: 0.98408
+Trial (type3): Consider the last time you interacted with your closest friend. During the interaction, did you communicate:\n\n(1) via text message\n(2) over the phone\n(3) in another way\n
+Pressed 3
+Trial RT: 0.81917
+Trial (type1): Assess the status of your mood and how positive you feel at the present time. Are you in:\n\n(1) a very happy mood\n(2) a somewhat happy mood\n(3) an unhappy mood\n
+Pressed 2
+Trial RT: 0.66187
+Trial (type1): Reflect upon your level of tolerance for risky choices or behaviors at the present time. Do you think that you are:\n\n(1) quite prone to risk\n(2) somewhat risk-prone\n(3) not prone to risk\n
+Pressed 2
+Trial RT: 0.50221
+Trial (type3): Assess the activity you chose the last time you purposefully exercised. Would you characterize the activity as:\n\n(1) high intensity\n(2) moderate intensity\n(3) low intensity\n
+Pressed 2
+Trial RT: 0.34188
+Trial (type2): Imagine that you are at a restaurant one month from now and decide to order dessert. Will you order:\n\n(1) cake\n(2) ice cream\n(3) something else\n
+Pressed 1
+Trial RT: 0.1985
+Trial (type2): Speculate about the next time you go to a beach with a specific friend. On the beach, will you primarily:\n\n(1) sit in a chair\n(2) go in the water\n(3) do something else\n
+Pressed 2
+Trial RT: 0.02598
+Trial (type1): Assess your feelings toward your current wardrobe in comparison to that of your close friends. Do you consider yourself:\n\n(1) more fashionable\n(2) equally fashionable\n(3) less fashionable\n
+Pressed 2
+Trial RT: 1.5167
+Trial (type1): Consider your current capacity to think of new ideas that you hope to act upon. Do you feel:\n\n(1) very inspired\n(2) a little inspired\n(3) not at all inspired\n
+Pressed 2
+Trial RT: 1.359
+Trial (type2): Speculate about doing an outside activity tomorrow with a specific friend. Are you more likely to:\n\n(1) exercise\n(2) have a picnic\n(3) do something else\n
+Pressed 1
+Trial RT: 1.2006
+Trial (type3): Reflect upon your experience trying to fall asleep last night. Were you able to fall asleep:\n\n(1) easily without effort\n(2) with some effort\n(3) with a lot of effort\n
+Pressed 3
+Trial RT: 1.0411
+Trial (type3): Think about the last time that you stayed home sick. What activity did you do to pass your time:\n\n(1) sleep\n(2) watch TV\n(3) something else\n
+Pressed 1
+Trial RT: 0.87317
+Trial (type3): Recall specific details associated with the last time you went out to dinner. Did you go out to:\n\n(1) celebrate an event\n(2) gather with friends\n(3) for another reason\n
+Pressed 1
+Trial RT: 0.71512
+Trial (type2): Speculate about the next time you go for a walk. Are you likely to find yourself walking:\n\n(1) near your home\n(2) near shopping stores\n(3) at some other location\n
+Pressed 1
+Trial RT: 0.5565

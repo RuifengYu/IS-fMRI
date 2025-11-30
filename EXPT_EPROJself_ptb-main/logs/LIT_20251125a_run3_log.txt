@@ -1,0 +1,45 @@
+Trial (type2): Contemplate that you are taking a specific class five years from now. What do you envision yourself studying:\n\n(1) programming\n(2) language\n(3) something else\n
+Pressed 3
+Trial RT: 1.1487
+Trial (type2): Consider the next trip you will take outside of your state. Do you suppose that you will go somewhere in:\n\n(1) the same region\n(2) the rest of the country\n(3) somewhere else\n
+Pressed 2
+Trial RT: 0.96297
+Trial (type1): Reflect upon your current propensity to try new things without prior planning. Would you say that you are:\n\n(1) very spontaneous\n(2) somewhat spontaneous\n(3) not at all spontaneous\n
+Pressed 3
+Trial RT: 0.79792
+Trial (type1): Think about how focused you are on the task at the present moment. Would you describe yourself as:\n\n(1) fully focused\n(2) somewhat focused\n(3) not focused at all\n
+Pressed 2
+Trial RT: 0.6397
+Trial (type1): Think about how creative you feel at the present moment. Would you say you are currently:\n\n(1) highly creative\n(2) moderately creative\n(3) not at all creative\n
+Pressed 2
+Trial RT: 0.48043
+Trial (type3): Recall a specific class that you took in high school that you considered difficult at the time. Was the class:\n\n(1) a science class\n(2) a language class\n(3) something else\n
+Pressed 1
+Trial RT: 0.32315
+Trial (type1): Think about how emotional you currently feel. How would you characterize your overall emotionality:\n\n(1) negative\n(2) neutral\n(3) positive\n
+Pressed 2
+Trial RT: 0.16483
+Trial (type2): Envision that you are participating in a specific exercise class next week. Is the class most likely:\n\n(1) an aerobics class\n(2) a yoga class\n(3) another class\n
+Pressed 2
+Trial RT: 0.0092883
+Trial (type2): Envision that you are cold next January as you leave your home. When you notice that you are cold, will you:\n\n(1) add layers\n(2) move around\n(3) do something else\n
+Pressed 2
+Trial RT: 1.4952
+Trial (type3): Reflect upon your environmental surroundings the last time that you read a book. Were you reading:\n\n(1) at home\n(2) outdoors\n(3) another place\n
+Pressed 1
+Trial RT: 1.3375
+Trial (type2): Imagine that tomorrow you must complete a task that makes you nervous. Will you complete the task:\n\n(1) at work\n(2) at school\n(3) elsewhere\n
+Pressed 3
+Trial RT: 1.1791
+Trial (type3): Consider the last time you were in an elevator. About how many people were in the elevator with you:\n\n(1) no others\n(2) one other\n(3) two or more others\n
+Pressed 3
+Trial RT: 1.0206
+Trial (type3): Think about the most recent holiday that you celebrated with friends or family. Was this celebration planned by:\n\n(1) you\n(2) a family member\n(3) someone else\n
+Pressed 3
+Trial RT: 0.86237
+Trial (type3): Think about what you were doing during your trip to the lab earlier today. Were you traveling by:\n\n(1) car\n(2) public transportation\n(3) something else\n
+Pressed 1
+Trial RT: 0.69559
+Trial (type2): Reflect upon your relationships with your family members at the present time. Would you describe yourself as:\n\n(1) very close to family\n(2) somewhat close\n(3) not close at all\n
+Pressed 1
+Trial RT: 0.53647

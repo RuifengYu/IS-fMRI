@@ -1,0 +1,45 @@
+Trial (type1): Reflect upon your physical health at the present moment. Compared to the average person, do you believe that you are:\n\n(1) more fit\n(2) about as fit\n(3) less fit\n
+Pressed 1
+Trial RT: 1.1187
+Trial (type2): Speculate about opening an Internet browser later this evening after you return home. Will you first:\n\n(1) check your email\n(2) go to a social media site\n(3) something else\n
+Pressed 1
+Trial RT: 0.93387
+Trial (type1): Think about the pride you have for your home country right now. How would you describe these feelings:\n\n(1) low levels of pride\n(2) indifferent feelings\n(3) high levels of pride\n
+Pressed 2
+Trial RT: 0.76636
+Trial (type3): Reflect upon the last time that you purposefully looked at news-related materials and noticed a specific headline. Were you looking:\n\n(1) online\n(2) in print\n(3) somewhere else\n
+Pressed 1
+Trial RT: 0.60061
+Trial (type1): Assess your current capacity to be aware of your physical and social environment. Do you find yourself:\n\n(1) attentive to details\n(2) somewhat attentive\n(3) not very attentive\n
+Pressed 1
+Trial RT: 0.4334
+Trial (type1): Envision how adventurous your life is at the present moment. How satisfied are you with your current level of adventure:\n\n(1) satisfied\n(2) neutral\n(3) unsatisfied\n
+Pressed 2
+Trial RT: 0.26746
+Trial (type2): Ponder over becoming very hungry while out with friends next week. Which action will you take:\n\n(1) make food\n(2) buy food\n(3) wait to eat\n
+Pressed 1
+Trial RT: 0.11011
+Trial (type3): Envision the last time that you checked a weather report. How did you access the weather information:\n\n(1) on a phone\n(2) on a computer\n(3) another way\n
+Pressed 1
+Trial RT: 1.6011
+Trial (type2): Ponder over where you will be tomorrow during lunch. Who will be eating lunch with you:\n\n(1) no one\n(2) a significant other\n(3) someone else\n
+Pressed 3
+Trial RT: 1.4421
+Trial (type2): Consider that you are cleaning your kitchen after you arrive home later today. What do you envision yourself cleaning first:\n\n(1) the floor\n(2) the counter\n(3) something else\n
+Pressed 2
+Trial RT: 1.283
+Trial (type1): Speculate about your current ability to complete tasks by yourself. Do you feel as though you can:\n\n(1) complete any task\n(2) complete some tasks\n(3) complete most tasks\n
+Pressed 2
+Trial RT: 1.1239
+Trial (type3): Consider the events associated with the last time you went to downtown Boston. Were you downtown for:\n\n(1) a social activity\n(2) something work-related\n(3) something else\n
+Pressed 3
+Trial RT: 0.9672
+Trial (type3): Recall a specific time from your childhood when you felt like you were in trouble. Had you:\n\n(1) disobeyed a parent\n(2) broken a school rule\n(3) done something else\n
+Pressed 1
+Trial RT: 0.80691
+Trial (type2): Think about the next time you will see a family member. Where does this encounter take place:\n\n(1) in a home\n(2) in public\n(3) other\n
+Pressed 1
+Trial RT: 0.64958
+Trial (type3): Consider the most recent time that you watched a movie all the way through. Were you watching:\n\n(1) at home\n(2) at a movie theater\n(3) somewhere else\n
+Pressed 2
+Trial RT: 0.49029

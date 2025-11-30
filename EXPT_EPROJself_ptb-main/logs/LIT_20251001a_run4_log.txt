@@ -1,0 +1,45 @@
+Trial (type1): Consider your fields of engagement at the present moment. Do you believe that you are primarily:\n\n(1) scientifically talented\n(2) artistically talented\n(3) talented in another area\n
+Pressed 1
+Trial RT: 1.0518
+Trial (type1): Think about a specific source of stress in your life at the present moment. Would you decribe this stressor as most relevant to your:\n\n(1) occupation\n(2) health\n(3) something else\n
+Pressed 2
+Trial RT: 0.87207
+Trial (type3): Ponder over the last time you ate a favorite food that involves a longer recipe. Was the food made by:\n\n(1) a friend\n(2) a family member\n(3) someone else\n
+Pressed 3
+Trial RT: 0.69474
+Trial (type2): Consider the events associated with the next time you eat out at a restaurant. Will you be eating:\n\n(1) by yourself\n(2) with a friend\n(3) with a group\n
+Pressed 2
+Trial RT: 0.51552
+Trial (type2): Consider that you are at home this weekend and have free time to fill. Do you envision yourself:\n\n(1) calling friends\n(2) reading a book\n(3) doing something else\n
+Pressed 3
+Trial RT: 0.35358
+Trial (type3): Ponder over the last time you went on a trip outside of your local area. Did you go away for:\n\n(1) one day\n(2) a few days\n(3) longer\n
+Pressed 2
+Trial RT: 0.17173
+Trial (type3): Recall the last time you looked up directions before traveling to a specific destination. Did you search using:\n\n(1) a phone\n(2) a computer\n(3) something else\n
+Pressed 1
+Trial RT: 0.018021
+Trial (type1): Consider your feelings about the task that you are currently completing. Would you rather be doing something:\n\n(1) more exciting\n(2) less exciting\n(3) neither\n
+Pressed 3
+Trial RT: 1.4797
+Trial (type1): Reflect upon how sad you feel at the present time. Do you believe that you should feel:\n\n(1) more sad than you are\n(2) as sad as you are\n(3) less sad than you are\n
+Pressed 2
+Trial RT: 1.3186
+Trial (type3): Think about where you were and what you ate during your most recent meal. Were you eating:\n\n(1) at home\n(2) at a restaurant\n(3) somewhere else\n
+Pressed 1
+Trial RT: 1.1391
+Trial (type2): Imagine that, tomorrow evening, you eat your dinner at the usual time. Are you more likely to eat at:\n\n(1) your home\n(2) a restaurant\n(3) somewhere else\n
+Pressed 1
+Trial RT: 0.97641
+Trial (type1): Think about how tired you feel at the present moment. Would you describe yourself as:\n\n(1) extremely tired\n(2) somewhat tired\n(3) not at all tired\n
+Pressed 2
+Trial RT: 0.79778
+Trial (type2): Imagine that you have decided to take a day trip next weekend by yourself. Do you envision yourself traveling to:\n\n(1) a city\n(2) a small town\n(3) somewhere else\n
+Pressed 1
+Trial RT: 0.61693
+Trial (type3): Ponder over your experience getting ready this morning before you left home. Did your morning routine take:\n\n(1) longer than usual\n(2) the usual amount of time\n(3) less time than usual\n
+Pressed 1
+Trial RT: 0.45412
+Trial (type2): Consider the next time you will draft and send an email. To whom will the email be sent:\n\n(1) a family member\n(2) a coworker\n(3) someone else\n
+Pressed 2
+Trial RT: 0.27523

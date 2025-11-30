@@ -1,0 +1,9 @@
+subjectId,runNumber,setId,startTimestamp,endTimestamp,trialIndex,condition,prompt,content,promptOnset,fixationEnd,trialDuration,attentionResponseKey,attentionRT
+S016,2,4,2025-11-18 10:04:43,2025-11-18 10:10:29,1,spontaneous,Think about,what your perfect weekend would include.,0.0294491670001662,35.1177587920001,35.088309625,1,1.58086362499944
+S016,2,4,2025-11-18 10:04:43,2025-11-18 10:10:29,2,specific,Imagine saying the sentence:,Reasoning uses logic.,38.1511118340004,73.2199932090007,35.0688813750003,miss,NaN
+S016,2,4,2025-11-18 10:04:43,2025-11-18 10:10:29,3,specific,Imagine saying the sentence:,Resources can be limited.,76.2408706250008,111.305037667001,35.064167042,1,1.54512075000002
+S016,2,4,2025-11-18 10:04:43,2025-11-18 10:10:29,4,spontaneous,Think about,what success means to you.,114.324330709001,149.389654209001,35.0653235,1,1.50528866599961
+S016,2,4,2025-11-18 10:04:43,2025-11-18 10:10:29,5,spontaneous,Think about,where you would like to travel next.,164.431594792,199.496284125,35.0646893329995,1,2.04857225000069
+S016,2,4,2025-11-18 10:04:43,2025-11-18 10:10:29,6,specific,Imagine saying the sentence:,Language enables communication.,202.52749675,237.589280209,35.0617834590003,1,1.38436704200012
+S016,2,4,2025-11-18 10:04:43,2025-11-18 10:10:29,7,spontaneous,Think about,what you would do if you won the lottery.,240.609050125,275.664518792,35.0554686670002,1,1.30706462499984
+S016,2,4,2025-11-18 10:04:43,2025-11-18 10:10:29,8,specific,Imagine saying the sentence:,Context affects meaning.,278.683201084001,313.739751459,35.0565503749995,miss,NaN

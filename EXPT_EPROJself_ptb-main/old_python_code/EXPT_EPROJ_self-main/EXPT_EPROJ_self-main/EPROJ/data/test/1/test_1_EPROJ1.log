@@ -1,0 +1,140 @@
+3.7421 	INFO 	Loaded monitor calibration from ['2024_09_16 16:19']
+5.8723 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+5.8729 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fec42ec69a0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fec15452b80>, multiSample=False, name='window1', numSamples=2, pos=[448.0, 280.0], screen=0, size=array([3584, 2240]), stencilBits=0, stereo=False, units='pix', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.8731 	EXP 	window1: mouseVisible = True
+5.8742 	EXP 	window1: mouseVisible = False
+5.8742 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+5.8743 	EXP 	window1: recordFrameIntervals = False
+6.0413 	EXP 	window1: recordFrameIntervals = True
+7.7056 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+9.6160 	INFO 	keyboard.Keyboard is using iohub backend.
+9.8262 	EXP 	Created Eproj_Instruction_Screen = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='Supporting_Files/Screens/EPROJ.png', interpolate=True, mask=None, maskParams=None, name='Eproj_Instruction_Screen', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([848., 848.]), texRes=512, units='pix', win=Window(...))
+9.8262 	INFO 	keyboard.Keyboard is using iohub backend.
+9.8291 	EXP 	Created polygon_fix = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([0.7647, 0.7647, 0.7647]), fillColorSpace='rgb', fillRGB=array([0.7647, 0.7647, 0.7647]), interpolate=True, lineColor=array([0.7647, 0.7647, 0.7647]), lineColorSpace='rgb', lineRGB=array([0.7647, 0.7647, 0.7647]), lineWidth=1.0, name='polygon_fix', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([848., 848.]), units='pix', vertices=ndarray(...), win=Window(...))
+9.9719 	EXP 	Created Ready_E = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='Ready_E', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([25., 25.]), texRes=512, units='pix', win=Window(...))
+10.0093 	EXP 	Created stay_still_a_CC = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=40.0, italic=False, languageStyle='LTR', name='stay_still_a_CC', opacity=1.0, ori=0.0, pos=array([ 0., 60.]), rgb=UNKNOWN, text='STAY VERY STILL', units='pix', win=Window(...), wrapWidth=1000.0)
+10.0120 	EXP 	Created stay_still_b_CC = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=40.0, italic=False, languageStyle='LTR', name='stay_still_b_CC', opacity=1.0, ori=0.0, pos=array([  0., -60.]), rgb=UNKNOWN, text='STAY VERY STILL', units='pix', win=Window(...), wrapWidth=1000.0)
+10.0150 	EXP 	Created task_frame_fix1 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([0.7647, 0.7647, 0.7647]), fillColorSpace='rgb', fillRGB=array([0.7647, 0.7647, 0.7647]), interpolate=True, lineColor=array([0.7647, 0.7647, 0.7647]), lineColorSpace='rgb', lineRGB=array([0.7647, 0.7647, 0.7647]), lineWidth=1.0, name='task_frame_fix1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([848., 848.]), units='pix', vertices=ndarray(...), win=Window(...))
+10.1181 	EXP 	Created E_fix_init = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='E_fix_init', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([25., 25.]), texRes=512, units='pix', win=Window(...))
+10.1191 	EXP 	Created task_frame_fix3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([0.7647, 0.7647, 0.7647]), fillColorSpace='rgb', fillRGB=array([0.7647, 0.7647, 0.7647]), interpolate=True, lineColor=array([0.7647, 0.7647, 0.7647]), lineColorSpace='rgb', lineRGB=array([0.7647, 0.7647, 0.7647]), lineWidth=1.0, name='task_frame_fix3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([848., 848.]), units='pix', vertices=ndarray(...), win=Window(...))
+10.2173 	EXP 	Created E_fix_pres = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='E_fix_pres', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([25., 25.]), texRes=512, units='pix', win=Window(...))
+10.2174 	INFO 	keyboard.Keyboard is using iohub backend.
+10.2183 	EXP 	Created task_frame_trial = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([0.7647, 0.7647, 0.7647]), fillColorSpace='rgb', fillRGB=array([0.7647, 0.7647, 0.7647]), interpolate=True, lineColor=array([0.7647, 0.7647, 0.7647]), lineColorSpace='rgb', lineRGB=array([0.7647, 0.7647, 0.7647]), lineWidth=1.0, name='task_frame_trial', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([848., 848.]), units='pix', vertices=ndarray(...), win=Window(...))
+10.2191 	EXP 	Created EprojStimuli = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=38, italic=False, languageStyle='LTR', name='EprojStimuli', opacity=1.0, ori=0.0, pos=array([15.,  0.]), rgb=UNKNOWN, text='', units='pix', win=Window(...), wrapWidth=695)
+10.2191 	INFO 	keyboard.Keyboard is using iohub backend.
+10.2201 	EXP 	Created task_frame_fix2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([0.7647, 0.7647, 0.7647]), fillColorSpace='rgb', fillRGB=array([0.7647, 0.7647, 0.7647]), interpolate=True, lineColor=array([0.7647, 0.7647, 0.7647]), lineColorSpace='rgb', lineRGB=array([0.7647, 0.7647, 0.7647]), lineWidth=1.0, name='task_frame_fix2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([848., 848.]), units='pix', vertices=ndarray(...), win=Window(...))
+10.3244 	EXP 	Created E_fix_wrap = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='E_fix_wrap', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([25., 25.]), texRes=512, units='pix', win=Window(...))
+10.3254 	EXP 	Created task_frame_blank = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([0.7647, 0.7647, 0.7647]), fillColorSpace='rgb', fillRGB=array([0.7647, 0.7647, 0.7647]), interpolate=True, lineColor=array([0.7647, 0.7647, 0.7647]), lineColorSpace='rgb', lineRGB=array([0.7647, 0.7647, 0.7647]), lineWidth=1.0, name='task_frame_blank', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([848., 848.]), units='pix', vertices=ndarray(...), win=Window(...))
+10.3525 	WARNING 	t of last frame was 2647.11ms (=1/0)
+10.3525 	EXP 	Eproj_Instruction_Screen: autoDraw = True
+11.2467 	DATA 	Keypress: space
+11.2825 	WARNING 	t of last frame was 77.41ms (=1/12)
+11.2825 	EXP 	Eproj_Instruction_Screen: autoDraw = False
+11.2825 	EXP 	polygon_fix: autoDraw = True
+11.2825 	EXP 	Ready_E: autoDraw = True
+11.2825 	EXP 	stay_still_a_CC: autoDraw = True
+11.2825 	EXP 	stay_still_b_CC: autoDraw = True
+11.3222 	EXP 	launchScan: vol: 309  TR: 2.000s  skip: 0  sync: '['num_add', 'equal']'
+11.3539 	EXP 	window1: mouseVisible = False
+11.9437 	DATA 	Keypress: lcommand
+12.0045 	DATA 	Keypress: equal
+12.0047 	EXP 	launchScan: start of scan
+12.0304 	WARNING 	t of last frame was 708.42ms (=1/1)
+12.0304 	EXP 	polygon_fix: autoDraw = False
+12.0304 	EXP 	Ready_E: autoDraw = False
+12.0304 	EXP 	stay_still_a_CC: autoDraw = False
+12.0304 	EXP 	stay_still_b_CC: autoDraw = False
+12.1052 	EXP 	task_frame_fix1: autoDraw = True
+12.1052 	EXP 	E_fix_init: autoDraw = True
+19.0993 	DEBUG 	Read excel file with openpyxl: Supporting_Files/Spreadsheets/Eproj_Scan_Run1.xlsx
+19.1014 	EXP 	Imported Supporting_Files/Spreadsheets/Eproj_Scan_Run1.xlsx as conditions, 15 conditions, 5 params
+19.1023 	EXP 	Created sequence: sequential, trialTypes=15, nReps=1, seed=None
+19.1027 	EXP 	New trial (rep=0, index=0): {'Trial': 1, 'Condition': 'present_self', 'Question': 'Reflect upon your physical health at the present moment. Compared to the average person, do you believe that    you are: \n       (1) more fit \n              (2) about as fit\n                     (3) less fit', 'Condition_Type': 'RS', 'Full_question_text': 'Reflect upon your physical health at the present moment. Compared to the average person, do you believe that you are: more fit, about as fit, less fit'}
+19.1098 	WARNING 	t of last frame was 21.23ms (=1/47)
+19.1098 	EXP 	task_frame_fix1: autoDraw = False
+19.1098 	EXP 	E_fix_init: autoDraw = False
+19.1098 	EXP 	task_frame_fix1: autoDraw = False
+19.1098 	EXP 	E_fix_init: autoDraw = False
+19.1098 	EXP 	task_frame_fix3: autoDraw = True
+19.1098 	EXP 	E_fix_pres: autoDraw = True
+28.4500 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+29.1482 	EXP 	task_frame_fix3: autoDraw = False
+29.1482 	EXP 	E_fix_pres: autoDraw = False
+29.1482 	EXP 	EprojStimuli: height = 38.0
+29.1482 	EXP 	EprojStimuli: height = 38.0
+29.1482 	EXP 	EprojStimuli: height = 38.0
+29.1482 	EXP 	EprojStimuli: text = 'Reflect upon your physical health at the present moment. Compared to the average person, do you believe that    you are: \n       (1) more fit \n              (2) about as fit\n                     (3) less fit'
+29.1482 	EXP 	EprojStimuli: alignText = 'left'
+29.1482 	EXP 	task_frame_trial: autoDraw = True
+29.1482 	EXP 	EprojStimuli: autoDraw = True
+29.1482 	EXP 	EprojStimuli: height = 38.0
+29.1482 	EXP 	EprojStimuli: height = 38.0
+29.1482 	EXP 	EprojStimuli: height = 38.0
+29.1482 	EXP 	EprojStimuli: text = 'Reflect upon your physical health at the present moment. Compared to the average person, do you believe that    you are: \n       (1) more fit \n              (2) about as fit\n                     (3) less fit'
+39.1079 	EXP 	New trial (rep=0, index=1): {'Trial': 2, 'Condition': 'future_self', 'Question': 'Speculate about opening an Internet browser later this evening after you return home. Will you first: \n       (1) check your email          \n              (2) go to a social media site\n                     (3) something else', 'Condition_Type': 'FS', 'Full_question_text': 'Speculate about opening an Internet browser later this evening after you return home. Will you first: check your email, go to a social media site, do something else?'}
+39.1220 	EXP 	task_frame_trial: autoDraw = False
+39.1220 	EXP 	EprojStimuli: autoDraw = False
+39.1220 	EXP 	task_frame_fix3: autoDraw = True
+39.1220 	EXP 	E_fix_pres: autoDraw = True
+49.1364 	EXP 	task_frame_fix3: autoDraw = False
+49.1364 	EXP 	E_fix_pres: autoDraw = False
+49.1364 	EXP 	EprojStimuli: height = 38.0
+49.1364 	EXP 	EprojStimuli: height = 38.0
+49.1364 	EXP 	EprojStimuli: height = 38.0
+49.1364 	EXP 	EprojStimuli: text = 'Speculate about opening an Internet browser later this evening after you return home. Will you first: \n       (1) check your email          \n              (2) go to a social media site\n                     (3) something else'
+49.1364 	EXP 	EprojStimuli: alignText = 'left'
+49.1364 	EXP 	task_frame_trial: autoDraw = True
+49.1364 	EXP 	EprojStimuli: autoDraw = True
+49.1364 	EXP 	EprojStimuli: height = 38.0
+49.1364 	EXP 	EprojStimuli: height = 38.0
+49.1364 	EXP 	EprojStimuli: height = 38.0
+49.1364 	EXP 	EprojStimuli: text = 'Speculate about opening an Internet browser later this evening after you return home. Will you first: \n       (1) check your email          \n              (2) go to a social media site\n                     (3) something else'
+59.1071 	EXP 	New trial (rep=0, index=2): {'Trial': 3, 'Condition': 'present_self', 'Question': 'Think about the pride you have for your home country right now. How would you describe these feelings: \n       (1) low levels of pride    \n              (2) indifferent feelings\n                     (3) high levels of pride', 'Condition_Type': 'RS', 'Full_question_text': 'Think about the pride you have for your home country right now. How would you describe these feelings: low levels of pride, indifferent feelings, high levels of pride?'}
+59.1222 	EXP 	task_frame_trial: autoDraw = False
+59.1222 	EXP 	EprojStimuli: autoDraw = False
+59.1222 	EXP 	task_frame_fix3: autoDraw = True
+59.1222 	EXP 	E_fix_pres: autoDraw = True
+69.1334 	EXP 	task_frame_fix3: autoDraw = False
+69.1334 	EXP 	E_fix_pres: autoDraw = False
+69.1334 	EXP 	EprojStimuli: height = 38.0
+69.1334 	EXP 	EprojStimuli: height = 38.0
+69.1334 	EXP 	EprojStimuli: height = 38.0
+69.1334 	EXP 	EprojStimuli: text = 'Think about the pride you have for your home country right now. How would you describe these feelings: \n       (1) low levels of pride    \n              (2) indifferent feelings\n                     (3) high levels of pride'
+69.1334 	EXP 	EprojStimuli: alignText = 'left'
+69.1334 	EXP 	task_frame_trial: autoDraw = True
+69.1334 	EXP 	EprojStimuli: autoDraw = True
+69.1334 	EXP 	EprojStimuli: height = 38.0
+69.1334 	EXP 	EprojStimuli: height = 38.0
+69.1334 	EXP 	EprojStimuli: height = 38.0
+69.1334 	EXP 	EprojStimuli: text = 'Think about the pride you have for your home country right now. How would you describe these feelings: \n       (1) low levels of pride    \n              (2) indifferent feelings\n                     (3) high levels of pride'
+79.1058 	EXP 	New trial (rep=0, index=3): {'Trial': 4, 'Condition': 'past_self', 'Question': 'Reflect upon the last time that you purposefully looked at news-related materials and noticed a specific headline. Were you looking: \n       (1) online           \n              (2) in print\n                     (3) somewhere else', 'Condition_Type': 'PS', 'Full_question_text': 'Reflect upon the last time that you purposefully looked at news-related materials and noticed a specific headline. Were you looking: online, in print, somewhere else?'}
+79.1221 	EXP 	task_frame_trial: autoDraw = False
+79.1221 	EXP 	EprojStimuli: autoDraw = False
+79.1221 	EXP 	task_frame_fix3: autoDraw = True
+79.1221 	EXP 	E_fix_pres: autoDraw = True
+89.1333 	EXP 	task_frame_fix3: autoDraw = False
+89.1333 	EXP 	E_fix_pres: autoDraw = False
+89.1333 	EXP 	EprojStimuli: height = 38.0
+89.1333 	EXP 	EprojStimuli: height = 38.0
+89.1333 	EXP 	EprojStimuli: height = 38.0
+89.1333 	EXP 	EprojStimuli: text = 'Reflect upon the last time that you purposefully looked at news-related materials and noticed a specific headline. Were you looking: \n       (1) online           \n              (2) in print\n                     (3) somewhere else'
+89.1333 	EXP 	EprojStimuli: alignText = 'left'
+89.1333 	EXP 	task_frame_trial: autoDraw = True
+89.1333 	EXP 	EprojStimuli: autoDraw = True
+89.1333 	EXP 	EprojStimuli: height = 38.0
+89.1333 	EXP 	EprojStimuli: height = 38.0
+89.1333 	EXP 	EprojStimuli: height = 38.0
+89.1333 	EXP 	EprojStimuli: text = 'Reflect upon the last time that you purposefully looked at news-related materials and noticed a specific headline. Were you looking: \n       (1) online           \n              (2) in print\n                     (3) somewhere else'
+89.7267 	DATA 	Keypress: 3
+91.8115 	DATA 	Keypress: 3
+92.3254 	DATA 	Keypress: escape
+93.3298 	EXP 	window1: mouseVisible = True
+93.3299 	DEBUG 	Saving data for EPROJ ExperimentHandler
+93.3306 	INFO 	saved data to /Users/luria/EXPT/EXPT_EPROJ_self/EPROJ/../../data_output/test/1/test_1_EPROJ1.psydat
+93.3312 	INFO 	saved data to '/Users/luria/EXPT/EXPT_EPROJ_self/EPROJ/../../data_output/test/1/test_1_EPROJ1.csv'

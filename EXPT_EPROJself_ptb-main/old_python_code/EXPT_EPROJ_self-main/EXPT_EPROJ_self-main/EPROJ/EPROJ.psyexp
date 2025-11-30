@@ -1,0 +1,675 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2022.2.1">
+  <Settings>
+    <Param val="use prefs" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="use prefs" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="'../../data_output/%s/%s/%s_%s_%s' % (participant,session,participant,session, expName + run)" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="{'participant': '', 'session': '', 'run_num': '', 'mriMode': 'scan'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="scanProjector" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="False" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="pix" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="[1792, 1120]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="$(-1.0000, -1.0000, -1.0000)" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="EPROJ" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="debug" valType="code" updates="None" name="logging level"/>
+    <Param val="MIDDLE_BUTTON" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <PolygonComponent name="task_frame_trial">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="num" updates="None" name="durationEstim"/>
+        <Param val="$(0.7647, 0.7647, 0.7647)" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$(0.7647, 0.7647, 0.7647)" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="task_frame_trial" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(offset_x+0, offset_y+0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="constant" name="shape"/>
+        <Param val="(box_w,box_h)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="num" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="num" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="num" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <TextComponent name="EprojStimuli">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="num" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="letter_h" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="EprojStimuli" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(pos_x+offset_x, pos_y+offset_y)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="num" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="num" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="num" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$Question&amp;#10;&amp;#10;" valType="str" updates="set every repeat" name="text"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="pos_wrap" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="EprojResponse">
+        <Param val="usable_keys" valType="list" updates="set every repeat" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="num" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="EprojResponse" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="num" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="num" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="num" updates="constant" name="stopVal"/>
+        <Param val="first key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <CodeComponent name="code_2">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="import time&amp;#10;expInfo['expStartWallTime'] = time.ctime()&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="import * as time from 'time';&amp;#10;expInfo[&quot;expStartWallTime&quot;] = time.ctime();&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="EprojStimuli.alignText = &quot;left&quot;;&amp;#10;timePrecise.reset();&amp;#10;hasResponded = false;&amp;#10;eproj_trials.addData(&quot;globalClockTime_start&quot;, globalClock.getTime());&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="EprojStimuli.alignText = 'left'&amp;#10;&amp;#10;timePrecise.reset()&amp;#10;hasResponded = False &amp;#10;&amp;#10;eproj_trials.addData('globalClockTime_start',globalClock.getTime())" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="if EprojResponse.keys and not hasResponded:&amp;#10;    hasResponded = True&amp;#10;    &amp;#10;    respTime = EprojResponse.rt&amp;#10;    &amp;#10;    # log some stuffs&amp;#10;    #&amp;#10;    # task_blocks.addData('actualChoiceOffset', fmriClock.getTime())&amp;#10;    # task_blocks.addData('responseTime', respTime)" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="if ((EprojResponse.keys &amp;&amp; (! hasResponded))) {&amp;#10;    hasResponded = true;&amp;#10;    respTime = EprojResponse.rt;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="logging.flush();&amp;#10;eproj_trials.addData(&quot;globalClockTime_end&quot;, globalClock.getTime());&amp;#10;eproj_trials.addData(&quot;trial_duration&quot;, timePrecise.getTime());&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="logging.flush()&amp;#10;&amp;#10;eproj_trials.addData('globalClockTime_end',globalClock.getTime())&amp;#10;eproj_trials.addData('trial_duration',timePrecise.getTime())&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_2" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="Variable_Setting_Eproj">
+      <CodeComponent name="variables">
+        <Param val="import pandas as pd&amp;#10;exp_info = pd.read_csv('../exp_info.csv')&amp;#10;&amp;#10;participant=str(exp_info.at[0, 'participant'])&amp;#10;session=str(exp_info.at[0,'session'])&amp;#10;mriMode=str(exp_info.at[0,'mriMode'])&amp;#10;offset_x=exp_info.at[0,'offset_x']&amp;#10;offset_y=exp_info.at[0,'offset_y']&amp;#10;run=str(exp_info.at[0,'EPROJ_run'])&amp;#10;&amp;#10;print('Participant: ' + participant)&amp;#10;print('Session: ' + session)&amp;#10;print('Run Number: ' + run)&amp;#10;print('Offset_X: ' + str(offset_x))&amp;#10;print('Offset_Y: ' + str(offset_y))&amp;#10;print('MRI Mode: ' + mriMode)&amp;#10;&amp;#10;LeftIndex='9'&amp;#10;LeftMiddle='8'&amp;#10;LeftRing='7'&amp;#10;&amp;#10;#RightIndex='2'&amp;#10;#LeftIndex='7'&amp;#10;usable_keys=['1','2','3']&amp;#10;# trigger='equal'&amp;#10;&amp;#10;# Shared Variables&amp;#10;box_w=848&amp;#10;box_h=848&amp;#10;&amp;#10;fix_w=25&amp;#10;fix_h=25&amp;#10;&amp;#10;stay_still_h=40&amp;#10;stay_still_y=60&amp;#10;&amp;#10;# EPROJ&amp;#10;letter_h=38&amp;#10;stimulus_duration=10&amp;#10;pos_x=15&amp;#10;pos_y=0&amp;#10;pos_wrap=695&amp;#10;&amp;#10;&amp;#10;timePrecise=core.Clock()" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="import * as os from 'os';&amp;#10;var LeftIndex, RightIndex, trigger, usable_keys;&amp;#10;RightIndex = &quot;a&quot;;&amp;#10;LeftIndex = &quot;l&quot;;&amp;#10;usable_keys = [&quot;a&quot;, &quot;l&quot;];&amp;#10;trigger = &quot;space&quot;;&amp;#10;" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="import os&amp;#10;&amp;#10;# Filename=os.path.join('itis','csv',expInfo['participant'],expInfo['session'] + '.csv')&amp;#10;# print 'Loading from ', Filename&amp;#10;&amp;#10;&amp;#10;import time&amp;#10;expInfo['expStartWallTime'] = time.ctime()&amp;#10;&amp;#10;expInfo['participant']=participant&amp;#10;expInfo['session']=session&amp;#10;expInfo['run_num']=run&amp;#10;expInfo['mriMode']=mriMode" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="exp_info.at[0, 'EPROJ_run'] =  (int(expInfo['run_num'])+1)&amp;#10;exp_info.to_csv('../exp_info.csv', index=False)" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="variables" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="Eproj_Instructions">
+      <ImageComponent name="Eproj_Instruction_Screen">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Supporting_Files/Screens/EPROJ.png" valType="str" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="None" valType="str" updates="constant" name="mask"/>
+        <Param val="Eproj_Instruction_Screen" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(offset_x+0, offset_y+0)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(848,848)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="512" valType="code" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <KeyboardComponent name="E_key_resp_42">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="E_key_resp_42" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="nothing" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <CodeComponent name="SyncGenerator_CC">
+        <Param val="import threading&amp;#10;&amp;#10;class SyncGenerator(threading.Thread):&amp;#10;&amp;#10;    def __init__(self, TR=1.0, TA=1.0, volumes=617, sync='equal', skip=0,&amp;#10;                 sound=False, **kwargs):&amp;#10;        &quot;&quot;&quot;Class for a character-emitting metronome thread&amp;#10;        (emulate MR sync pulse).&amp;#10;&amp;#10;        Aim: Allow testing of temporal robustness of fMRI scripts by emulating&amp;#10;        a hardware sync pulse. Adds an arbitrary 'sync' character to the key&amp;#10;        buffer, with sub-millisecond precision (less precise if CPU is maxed).&amp;#10;        Recommend: TR=1.000 or higher and less than 100% CPU. Shorter TR&amp;#10;        --&gt; higher CPU load.&amp;#10;&amp;#10;        Parameters:&amp;#10;            TR:      seconds between volume acquisitions&amp;#10;            TA:      seconds to acquire one volume&amp;#10;            volumes: number of 3D volumes to obtain in a given scanning run&amp;#10;            sync:    character used as flag for sync timing, default='5'&amp;#10;            skip:    how many frames to silently omit initially during T1&amp;#10;                     stabilization, no sync pulse. Not needed to test script&amp;#10;                     timing, but will give more accurate feel to start of run.&amp;#10;                     aka &quot;discdacqs&quot;.&amp;#10;            sound:   simulate scanner noise&amp;#10;        &quot;&quot;&quot;&amp;#10;        if TR &lt; 0.1:&amp;#10;            msg = 'SyncGenerator:  whole-brain TR &lt; 0.1 not supported'&amp;#10;            raise ValueError(msg)&amp;#10;        self.TR = TR&amp;#10;        self.TA = TA&amp;#10;        self.hogCPU = 0.035&amp;#10;        self.timesleep = self.TR&amp;#10;        self.volumes = int(volumes)&amp;#10;        self.sync = sync&amp;#10;        self.skip = skip&amp;#10;        self.playSound = sound&amp;#10;        if self.playSound:  # pragma: no cover&amp;#10;            self.sound1 = Sound(800, secs=self.TA, volume=0.15, autoLog=False)&amp;#10;            self.sound2 = Sound(813, secs=self.TA, volume=0.15, autoLog=False)&amp;#10;&amp;#10;        self.clock = core.Clock()&amp;#10;        self.stopflag = False&amp;#10;        threading.Thread.__init__(self, None, 'SyncGenerator', None)&amp;#10;        self.running = False&amp;#10;&amp;#10;    def run(self):&amp;#10;        self.running = True&amp;#10;        if self.skip:&amp;#10;            for i in range(int(self.skip)):&amp;#10;                if self.playSound:  # pragma: no cover&amp;#10;                    self.sound1.play()&amp;#10;                    self.sound2.play()&amp;#10;                # emulate T1 stabilization without data collection&amp;#10;                core.wait(self.TR, hogCPUperiod=0)&amp;#10;        self.clock.reset()&amp;#10;        for vol in range(1, self.volumes + 1):&amp;#10;            if self.playSound:  # pragma: no cover&amp;#10;                self.sound1.play()&amp;#10;                self.sound2.play()&amp;#10;            if self.stopflag:&amp;#10;                break&amp;#10;            # &quot;emit&quot; a sync pulse by placing a key in the buffer:&amp;#10;            event._onPygletKey(symbol=self.sync, modifiers=0,&amp;#10;                               emulated=True)&amp;#10;            # wait for start of next volume, doing our own hogCPU for&amp;#10;            # tighter sync:&amp;#10;            core.wait(self.timesleep - self.hogCPU, hogCPUperiod=0)&amp;#10;            while self.clock.getTime() &lt; vol * self.TR:&amp;#10;                pass  # hogs the CPU for tighter sync&amp;#10;        self.running = False&amp;#10;        return self&amp;#10;&amp;#10;&amp;#10;    def stop(self):&amp;#10;        self.stopflag = True" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="import * as threading from 'threading';&amp;#10;class SyncGenerator extends threading.Thread {&amp;#10;    constructor(TR = 1.0, TA = 1.0, volumes = 617, sync = &quot;equal&quot;, skip = 0, sound = false, kwargs = {}) {&amp;#10;        /*Class for a character-emitting metronome thread&amp;#10;        (emulate MR sync pulse).&amp;#10;&amp;#10;        Aim: Allow testing of temporal robustness of fMRI scripts by emulating&amp;#10;        a hardware sync pulse. Adds an arbitrary 'sync' character to the key&amp;#10;        buffer, with sub-millisecond precision (less precise if CPU is maxed).&amp;#10;        Recommend: TR=1.000 or higher and less than 100% CPU. Shorter TR&amp;#10;        --&gt; higher CPU load.&amp;#10;&amp;#10;        Parameters:&amp;#10;        TR:      seconds between volume acquisitions&amp;#10;        TA:      seconds to acquire one volume&amp;#10;        volumes: number of 3D volumes to obtain in a given scanning run&amp;#10;        sync:    character used as flag for sync timing, default='5'&amp;#10;        skip:    how many frames to silently omit initially during T1&amp;#10;        stabilization, no sync pulse. Not needed to test script&amp;#10;        timing, but will give more accurate feel to start of run.&amp;#10;        aka &quot;discdacqs&quot;.&amp;#10;        sound:   simulate scanner noise&amp;#10;        */&amp;#10;        var msg;&amp;#10;        if ((TR &lt; 0.1)) {&amp;#10;            msg = &quot;SyncGenerator:  whole-brain TR &lt; 0.1 not supported&quot;;&amp;#10;            throw new ValueError(msg);&amp;#10;        }&amp;#10;        this.TR = TR;&amp;#10;        this.TA = TA;&amp;#10;        this.hogCPU = 0.035;&amp;#10;        this.timesleep = this.TR;&amp;#10;        this.volumes = Number.parseInt(volumes);&amp;#10;        this.sync = sync;&amp;#10;        this.skip = skip;&amp;#10;        this.playSound = sound;&amp;#10;        if (this.playSound) {&amp;#10;            this.sound1 = new Sound(800, {&quot;secs&quot;: this.TA, &quot;volume&quot;: 0.15, &quot;autoLog&quot;: false});&amp;#10;            this.sound2 = new Sound(813, {&quot;secs&quot;: this.TA, &quot;volume&quot;: 0.15, &quot;autoLog&quot;: false});&amp;#10;        }&amp;#10;        this.clock = new core.Clock();&amp;#10;        this.stopflag = false;&amp;#10;        threading.Thread.__init__(this, null, &quot;SyncGenerator&quot;, null);&amp;#10;        this.running = false;&amp;#10;    }&amp;#10;    run() {&amp;#10;        this.running = true;&amp;#10;        if (this.skip) {&amp;#10;            for (var i = 0, _pj_a = Number.parseInt(this.skip); (i &lt; _pj_a); i += 1) {&amp;#10;                if (this.playSound) {&amp;#10;                    this.sound1.play();&amp;#10;                    this.sound2.play();&amp;#10;                }&amp;#10;                core.wait(this.TR, {&quot;hogCPUperiod&quot;: 0});&amp;#10;            }&amp;#10;        }&amp;#10;        this.clock.reset();&amp;#10;        for (var vol = 1, _pj_a = (this.volumes + 1); (vol &lt; _pj_a); vol += 1) {&amp;#10;            if (this.playSound) {&amp;#10;                this.sound1.play();&amp;#10;                this.sound2.play();&amp;#10;            }&amp;#10;            if (this.stopflag) {&amp;#10;                break;&amp;#10;            }&amp;#10;            event._onPygletKey({&quot;symbol&quot;: this.sync, &quot;modifiers&quot;: 0, &quot;emulated&quot;: true});&amp;#10;            core.wait((this.timesleep - this.hogCPU), {&quot;hogCPUperiod&quot;: 0});&amp;#10;            while ((this.clock.getTime() &lt; (vol * this.TR))) {&amp;#10;            }&amp;#10;        }&amp;#10;        this.running = false;&amp;#10;        return this;&amp;#10;    }&amp;#10;    stop() {&amp;#10;        this.stopflag = true;&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="SyncGenerator_CC" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="fixation_inner">
+      <PolygonComponent name="task_frame_fix3">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="num" updates="None" name="durationEstim"/>
+        <Param val="$(0.7647, 0.7647, 0.7647)" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$(0.7647, 0.7647, 0.7647)" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="task_frame_fix3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(offset_x+0, offset_y+0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="constant" name="shape"/>
+        <Param val="(box_w,box_h)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="num" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="num" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="num" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <ImageComponent name="E_fix_pres">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Supporting_Files/Images/Black_Grey_Crosshair.png" valType="str" updates="constant" name="image"/>
+        <Param val="nearest" valType="str" updates="constant" name="interpolate"/>
+        <Param val="None" valType="str" updates="constant" name="mask"/>
+        <Param val="E_fix_pres" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(offset_x+0, offset_y+0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(fix_w, fix_h)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="512" valType="code" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <KeyboardComponent name="Eproj_offtime_Response">
+        <Param val="usable_keys" valType="list" updates="set every repeat" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="num" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="Eproj_offtime_Response" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="num" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="num" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="num" updates="constant" name="stopVal"/>
+        <Param val="first key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="fixation_wrap">
+      <PolygonComponent name="task_frame_fix2">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="num" updates="None" name="durationEstim"/>
+        <Param val="$(0.7647, 0.7647, 0.7647)" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$(0.7647, 0.7647, 0.7647)" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="task_frame_fix2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(offset_x+0, offset_y+0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="constant" name="shape"/>
+        <Param val="(box_w,box_h)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="num" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="num" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="num" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <ImageComponent name="E_fix_wrap">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Supporting_Files/Images/Black_Grey_Crosshair.png" valType="str" updates="constant" name="image"/>
+        <Param val="nearest" valType="str" updates="constant" name="interpolate"/>
+        <Param val="None" valType="str" updates="constant" name="mask"/>
+        <Param val="E_fix_wrap" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(offset_x+0, offset_y+0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(fix_w, fix_h)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="512" valType="code" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="fixation_init">
+      <PolygonComponent name="task_frame_fix1">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="num" updates="None" name="durationEstim"/>
+        <Param val="$(0.7647, 0.7647, 0.7647)" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$(0.7647, 0.7647, 0.7647)" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="task_frame_fix1" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(offset_x+0, offset_y+0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="constant" name="shape"/>
+        <Param val="(box_w,box_h)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="num" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="num" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="7" valType="num" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <ImageComponent name="E_fix_init">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Supporting_Files/Images/Black_Grey_Crosshair.png" valType="str" updates="constant" name="image"/>
+        <Param val="nearest" valType="str" updates="constant" name="interpolate"/>
+        <Param val="None" valType="str" updates="constant" name="mask"/>
+        <Param val="E_fix_init" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(offset_x+0, offset_y+0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(fix_w, fix_h)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="7" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="512" valType="code" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="Eproj_waitForFinish">
+      <CodeComponent name="finishCode_CC">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="# EXP_DURATION = 617" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="logging.exp(&quot;Experiment Finished&quot;)&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="finishCode_CC" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="Eproj_ReadyScreen">
+      <PolygonComponent name="polygon_fix">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="num" updates="None" name="durationEstim"/>
+        <Param val="$(0.7647, 0.7647, 0.7647)" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$(0.7647, 0.7647, 0.7647)" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="polygon_fix" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(offset_x, offset_y)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="constant" name="shape"/>
+        <Param val="(box_w,box_h)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="num" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="num" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val=".1" valType="num" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <ImageComponent name="Ready_E">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Supporting_Files/Images/Black_Grey_Crosshair.png" valType="str" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="None" valType="str" updates="constant" name="mask"/>
+        <Param val="Ready_E" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(offset_x+0, offset_y+0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(fix_w, fix_h)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.1" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="512" valType="code" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <TextComponent name="stay_still_a_CC">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="num" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="stay_still_h" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="stay_still_a_CC" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(offset_x+0, offset_y+stay_still_y)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="num" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="num" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.1" valType="num" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="STAY VERY STILL" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="1000" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="stay_still_b_CC">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="num" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="stay_still_h" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="stay_still_b_CC" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(offset_x+0, offset_y-stay_still_y)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="num" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="num" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.1" valType="num" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="STAY VERY STILL" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="1000" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="trigger_code_Eproj">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="fmriClock = core.Clock() # clock for syncing with fMRI scanner&amp;#10;&amp;#10;#trigger = 'parallel'&amp;#10;trigger = 'usb'&amp;#10;if trigger == 'parallel':&amp;#10;    from psychopy import parallel &amp;#10;elif trigger == 'usb':&amp;#10;   from psychopy.hardware.emulator import launchScan    &amp;#10;&amp;#10;&amp;#10;settings = {&amp;#10;   'TR': 2, # duration (sec) per volume &amp;#10;  'volumes': 309, # number of whole 3D volumes / frames&amp;#10;  'sync': ['num_add', 'equal'], # character to use as the sync timing event; assumed to come at start of a volume&amp;#10;  'skip': 0, # number of volumes lacking a sync pulse at start of scan for T1 stab -- (? LMD)&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="fmriClock = core.Clock () # clock for syncing with fMRI scanner&amp;#10;&amp;#10;# trigger = 'usb'&amp;#10;# if trigger == 'usb':&amp;#10;#   from psychopy.hardware.emulator import launchScan&amp;#10;&amp;#10;# MR_settings = {&amp;#10;#   'TR': 1, # duration (sec) per volume &amp;#10; #  'volumes': 284, # number of whole 3D volumes / frames&amp;#10; #  'sync': 'equal', # character to use as the sync timing event; assumed to come at start of a volume&amp;#10;#   'skip': 0, # number of volumes lacking a sync pulse at start of scan for T1 stab -- (? LMD)&amp;#10;# }&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if expInfo['mriMode'] != 'test': # or 'scan' !&amp;#10;    assert expInfo['mriMode'] == 'scan'&amp;#10;&amp;#10;#### #       waitMsgStim = visual.TextStim(win, color='White', text=wait_msg)&amp;#10;### #       waitMsgStim.draw()&amp;#10;### #       win.flip()&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="&amp;#10;#if key_resp_trigger.keys == trigger:&amp;#10;#    task_format_inst.finished = True&amp;#10;#    continueRoutine = False" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="if ((key_resp_42.keys === &quot;g&quot;)) {&amp;#10;    task_format_inst.finished = true;&amp;#10;    continueRoutine = false;&amp;#10;} else {&amp;#10;    if ((key_resp_42.keys === &quot;space&quot;)) {&amp;#10;        continueRoutine = false;&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="r" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="globalClock=fmriClock&amp;#10;mode=expInfo['mriMode']&amp;#10;wait_timeout=300&amp;#10;log=True&amp;#10;instr='select Scan or Test, press enter'&amp;#10;wait_msg='waiting'&amp;#10;simResponses=None&amp;#10;esc_key='escape'&amp;#10;&amp;#10;if not 'sync' in settings:&amp;#10;        settings.update({'sync': '5'})&amp;#10;if not 'skip' in settings:&amp;#10;        settings.update({'skip': 0})&amp;#10;try:&amp;#10;        wait_timeout = max(0.01, float(wait_timeout))&amp;#10;except ValueError:&amp;#10;        msg = &quot;wait_timeout must be number-like, but instead it was {}.&quot;&amp;#10;        raise ValueError(msg.format(wait_timeout))&amp;#10;&amp;#10;stringify = lambda x: &quot;{}&quot;.format(x)  # convert to str/unicode&amp;#10;if type(settings['sync']) == list:&amp;#10;    settings['sync'] = list(map(stringify, settings['sync']))&amp;#10;if type(settings['sync']) == str:&amp;#10;    settings['sync'] = stringify(settings['sync'])&amp;#10;&amp;#10;settings['TR'] = float(settings['TR'])&amp;#10;settings['volumes'] = int(settings['volumes'])&amp;#10;settings['skip'] = int(settings['skip'])&amp;#10;msg = &quot;vol: %(volumes)d  TR: %(TR).3fs  skip: %(skip)d  sync: '%(sync)s'&quot;&amp;#10;runInfo = msg % settings&amp;#10;&amp;#10;if log:  # pragma: no cover&amp;#10;        logging.exp('launchScan: ' + runInfo)&amp;#10;&amp;#10;instructions = visual.TextStim(&amp;#10;        win, text=instr, height=.05, pos=(0, 0), color=.4, autoLog=False)&amp;#10;&amp;#10;parameters = visual.TextStim(&amp;#10;        win, text=runInfo, height=.05, pos=(0, -0.5), color=.4, autoLog=False)&amp;#10;&amp;#10;    # if a valid mode was specified, use it; otherwise query via RatingScale:&amp;#10;mode = &quot;{}&quot;.format(mode).capitalize()&amp;#10;if mode not in ['Scan', 'Test']:&amp;#10;        run_type = visual.RatingScale(win, choices=['Scan', 'Test'],&amp;#10;                                      marker='circle',&amp;#10;                                      markerColor='DarkBlue', size=.8,&amp;#10;                                      stretch=.3, pos=(0.8, -0.9),&amp;#10;                                      markerStart='Test',&amp;#10;                                      lineColor='DarkGray', autoLog=False)&amp;#10;        while run_type.noResponse:&amp;#10;            instructions.draw()&amp;#10;            parameters.draw()&amp;#10;            run_type.draw()&amp;#10;            win.flip()&amp;#10;            if event.getKeys([esc_key]):&amp;#10;                break&amp;#10;        mode = run_type.getRating()&amp;#10;&amp;#10;doSimulation = bool(mode == 'Test')&amp;#10;&amp;#10;win.mouseVisible = False&amp;#10;if doSimulation:&amp;#10;        wait_msg += ' (simulation)'&amp;#10;#    msg = visual.TextStim(win, color='DarkGray', text=wait_msg, autoLog=False)&amp;#10;#    msg.draw()&amp;#10;#    win.flip()&amp;#10;&amp;#10;&amp;#10;event.clearEvents()  # do before starting the threads&amp;#10;if doSimulation:&amp;#10;        syncPulse = SyncGenerator(TR=1,TA=1,volumes=617, sync='equal', skip=0, sound=False)&amp;#10;        syncPulse.start()  # start emitting sync pulses&amp;#10;        core.runningThreads.append(syncPulse)&amp;#10;        if simResponses:&amp;#10;            roboResponses = ResponseEmulator(simResponses)&amp;#10;            # start emitting simulated user responses&amp;#10;            roboResponses.start()&amp;#10;            core.runningThreads.append(roboResponses)&amp;#10;&amp;#10;# wait for first sync pulse:&amp;#10;&amp;#10;timeoutClock = core.Clock()  # zeroed now&amp;#10;&amp;#10;allKeys = []&amp;#10;while True:&amp;#10;    allKeys = event.getKeys()&amp;#10;    if allKeys:&amp;#10;        print('allKeys', allKeys)&amp;#10;        print('settings[sync]', settings['sync'])&amp;#10;        print(type(settings['sync']))&amp;#10;    if type(settings['sync']) == list and any([key in allKeys for key in settings['sync']]):&amp;#10;        break&amp;#10;    if type(settings['sync']) == str and settings['sync'] in allKeys:&amp;#10;        break&amp;#10;    if esc_key and esc_key in allKeys:  # pragma: no cover&amp;#10;        core.quit()&amp;#10;    if timeoutClock.getTime() &gt; wait_timeout:&amp;#10;        msg = 'Waiting for scanner has timed out in %.3f seconds.'&amp;#10;        raise RuntimeError(msg % wait_timeout)&amp;#10;&amp;#10;#allKeys = []&amp;#10;# while not settings['sync'] in allKeys:&amp;#10;#print('allKeys', allKeys)&amp;#10;#print('settings[sync]', settings['sync'])&amp;#10;#while not any([key in allKeys for key in settings['sync']]) if type(settings['sync']) == list else \&amp;#10;#        not settings['sync'] in allKeys:&amp;#10;#    allKeys = event.getKeys()&amp;#10;#    if esc_key and esc_key in allKeys:  # pragma: no cover&amp;#10;#        core.quit()&amp;#10;#    if timeoutClock.getTime() &gt; wait_timeout:&amp;#10;#        msg = 'Waiting for scanner has timed out in %.3f seconds.'&amp;#10;#        raise RuntimeError(msg % wait_timeout)&amp;#10;if globalClock:&amp;#10;        globalClock.reset()&amp;#10;if log:  # pragma: no cover&amp;#10;        logging.exp('launchScan: start of scan')&amp;#10;    # blank the screen on first sync pulse received:&amp;#10;&amp;#10;elapsed = 1&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;#if trigger == 'usb':&amp;#10;#       vol = launchScan(win, MR_settings, wait_msg='STAY VERY STILL',&amp;#10;#             globalClock=fmriClock, # &lt;-- how you know the time! &amp;#10;#             mode=expInfo['mriMode']) # &lt;-- mode passed in&amp;#10;#elif trigger == 'parallel':&amp;#10;#       parallel.setPortAddress(0x378)&amp;#10;#       pin = 10; wait_msg = &quot;&quot;&amp;#10;#       pinStatus = parallel.readPin(pin)&amp;#10;#       while True:&amp;#10;#           if pinStatus != parallel.readPin(pin) or len(event.getKeys('esc')):&amp;#10;#              break&amp;#10;#              # start exp when pin values change&amp;#10;#       globalClock.reset()&amp;#10;#       logging.defaultClock.reset()&amp;#10;#       logging.exp('parallel trigger: start of scan')&amp;#10;#       win.flip()  # blank the screen on first sync pulse received&amp;#10;#else:&amp;#10;#   fmriClock.reset()&amp;#10;&amp;#10;expInfo['triggerWallTime'] = time.ctime()&amp;#10;#core.wait(1)&amp;#10;&amp;#10;&amp;#10;&amp;#10;routineTimer.reset()" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="trigger_code_Eproj" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="fixation_wrap_end">
+      <PolygonComponent name="task_frame_fix2_2">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="num" updates="None" name="durationEstim"/>
+        <Param val="$(0.7647, 0.7647, 0.7647)" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$(0.7647, 0.7647, 0.7647)" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="task_frame_fix2_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(offset_x+0, offset_y+0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="constant" name="shape"/>
+        <Param val="(box_w,box_h)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="num" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="num" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="num" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <ImageComponent name="E_fix_wrap_2">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Supporting_Files/Images/Black_Grey_Crosshair.png" valType="str" updates="constant" name="image"/>
+        <Param val="nearest" valType="str" updates="constant" name="interpolate"/>
+        <Param val="None" valType="str" updates="constant" name="mask"/>
+        <Param val="E_fix_wrap_2" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(offset_x+0, offset_y+0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(fix_w, fix_h)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="512" valType="code" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="blank">
+      <PolygonComponent name="task_frame_blank">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="num" updates="None" name="durationEstim"/>
+        <Param val="$(0.7647, 0.7647, 0.7647)" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$(0.7647, 0.7647, 0.7647)" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="task_frame_blank" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(offset_x+0, offset_y+0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="constant" name="shape"/>
+        <Param val="(box_w,box_h)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="num" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="num" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.1" valType="num" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="Variable_Setting_Eproj"/>
+    <Routine name="Eproj_Instructions"/>
+    <Routine name="Eproj_ReadyScreen"/>
+    <Routine name="fixation_init"/>
+    <LoopInitiator loopType="TrialHandler" name="eproj_trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="$&quot;Supporting_Files/Spreadsheets/Eproj_Scan_Run&quot; + expInfo['run_num'] +&quot;.xlsx&quot;" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="eproj_trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="fixation_inner"/>
+    <Routine name="trial"/>
+    <LoopTerminator name="eproj_trials"/>
+    <Routine name="fixation_wrap"/>
+    <Routine name="blank"/>
+    <Routine name="Eproj_waitForFinish"/>
+  </Flow>
+</PsychoPy2experiment>
