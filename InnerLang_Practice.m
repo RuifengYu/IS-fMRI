@@ -1,5 +1,5 @@
 function InnerLang_Practice(subjectId, varargin)
-% INNERLANG_PRACTICE
+% INNERLANG_PRACTICE_Session
 % Practice session for the InnerLang fMRI experiment
 %
 % INPUT ARGUMENTS (Required):
